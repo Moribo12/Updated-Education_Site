@@ -1,0 +1,440 @@
+/* Base styles for the navigation */
+
+@media screen and (max-width: 480px) {
+    .navigator {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-collapse {
+        display: block;
+        margin-top: -30px;
+    }
+
+    .btn-collapse img {
+        width: 35px;
+        height: auto;
+    }
+
+    .collapse {
+        display: none !important;
+    }
+
+    .nav-logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    .donate {
+        display: none;
+    }
+    .text{
+        width: 55%;
+    }
+    .title{
+        font-size: 30px;
+        margin-left: -70px;
+        margin-top: -70px;
+    }
+    .text h4{
+        margin-left: -70px;
+        /* margin-top: 10px; */
+        font-size: 18px!important;
+    }
+    .verified{
+        margin-left:-70px ;
+        padding-top: 60px;
+    }
+    .verified img{
+        height: 35px;
+        width: auto;
+        margin-bottom: 80px;
+    }
+    .partner-section{
+        display: inline;
+    }
+    .partner-section h1{
+        font-size: 26px;
+        padding: 10px ;
+        margin-left: 0px;
+    }
+    .list-slide img{
+        width: 70px;
+        height: auto;
+    }
+    .B-BBEE_background {
+        margin-top: -60px;
+        margin-bottom: -60px;
+    }
+    .B-BBEE_div h5{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .B-BBEE_btn{
+        margin: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+    .B-BBEE_icons{
+        display: inline;
+    }
+    .Training_div2{
+        display: inline-block;
+    }
+    .Training_img1{
+        display: inline-block;
+    }
+    .Training_img2{
+        display: inline-block;
+    }
+    .computer{
+        margin-bottom: -80px;
+    }
+    .computer_content{
+        display: inline-block;
+    }
+    .computer_content img{
+        width: 250px;
+        height: auto;
+    }
+    .computer_msg{
+        width: fit-content;
+    }
+    .revolution_box{
+        margin: 0;
+    }
+    .revolution_group{
+        display: inline-block;
+    }
+    .revolution_icons{
+        display: inline-block;
+    }
+    .social_impact{
+        margin-bottom: -50px;
+    }
+    .social_impact_container{
+        display: inline-block;
+    }
+    .card-wraper{
+        display: inline-block;
+    }
+    .scroll-arrows{
+        display: none;
+    }
+    .FAQ{
+        margin: 20px;
+    }
+    .dropdown-collapse{
+        display: inline-block;
+       
+    }
+    .span-img img{
+        margin-bottom: 10px;
+    }
+    .descr {
+        padding: 5px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .navigator {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn-collapse {
+        display: block;
+        margin-top: -30px;
+    }
+
+    .btn-collapse img {
+        width: 35px;
+        height: auto;
+    }
+
+    .collapse {
+        display: none !important;
+    }
+
+    .nav-logo img {
+        width: 100px;
+        height: auto;
+    }
+    .text{
+        width: 45%;
+    }
+    .title{
+        margin-left: -40px;
+        font-size: 22px;
+    }
+    .text p{
+        margin-left: -40px;
+        font-size: 13px;
+    }
+    .verified{
+        margin-left:-40px ;
+        padding-top: 80px;
+    }
+    .verified img{
+        margin-bottom: 80px;
+    }
+    .partner-section{
+        display: inline;
+    }
+    .partner-section h1{
+        font-size: 26px;
+        padding: 10px 0;
+        margin-left: -40px;
+    }
+    .list-slide img{
+        width: 70px;
+        height: auto;
+    }
+    .B-BBEE_div h5{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    /* .B-BBEE_btn a{ 
+        margin: 0;
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 80px;
+        text-align: center;
+    } */
+    .B-BBEE_icons{
+        display: inline;
+    }
+    .B-BBEE_icons img{
+        margin-left: 50px;
+    }
+    .Training_div2{
+        display: inline-block;
+    }
+    .Training_img1{
+        display: inline-block;
+    }
+    .Training_img2{
+        display: inline-block;
+    }
+    .computer_content{
+        display: inline-block;
+    }
+    .computer_content img{
+        width: 300px;
+        height: auto;
+    }
+    .computer_msg{
+        width: fit-content;
+    }
+    .revolution_box{
+        margin: 0;
+    }
+    .revolution_group{
+        display: inline-block;
+    }
+    .revolution_icons{
+        display: inline-block;
+    }
+    /* .revolution_icons{
+        margin:16px 0px;
+        padding: 0px 24px;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        
+    } */
+    .social_impact_container{
+        display: inline-block;
+    }
+    .card-wraper{
+        display: inline-block;
+        width: max-content;
+    }
+    .scroll-arrows{
+        display: none;
+    }
+    .FAQ{
+        margin: 50px;
+    }
+    .dropdown-collapse{
+        display: inline-block;
+        padding: 20px 0;
+    }
+    .span-img img{
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .nav-logo img {
+        width: 110px;
+        height: auto;
+    }
+
+    .donate {
+        padding: 8px;
+    }
+
+    .nav-item {
+        font-weight: 700;
+        font-size: 11.2px;
+        margin-right: 7px !important;
+    }
+    .text{
+        width: 51%;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 14px;
+    }
+    .verified img{
+        margin-bottom: 80px;
+    }
+    .partner-section h1{
+        font-size: 32px;
+    }
+    .list-slide img{
+        width: 100px;
+        height: auto;
+        padding: 10px 0;
+    }
+    .B-BBEE_btn{
+        margin: 0;
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    .Training_div2{
+        display: inline-block;
+    }
+    /* .Training_img1{
+        display: inline-block;
+    }
+    .Training_img2{
+        display: inline-block;
+    } */
+    .computer_content img{
+        width: 300px;
+        height: auto;
+    }
+    .computer_msg{
+        width: fit-content;
+        margin: 0;
+        padding-right: 0;
+    }
+    .social_impact{
+        margin-bottom: 20px;
+    }
+    .social_impact_container{
+        display: inline-block;
+    }
+    .holder{
+        position: relative;
+        top: 320px;
+    }
+    .card{
+        padding: 10px;
+        margin: 10px;
+    }
+    .card img {
+        width: 200px;
+        height: 120px;
+    }
+    .prevBtn{
+        position: absolute;
+        left: -20px;
+        top: 300px;
+    }
+    .nextBtn{
+        position: absolute;
+        right: -20px;
+        top: 300px;
+    }
+    .FAQ{
+        margin: 70px;
+        position: relative;
+        top: 290px;
+    }
+    .computer_msg .btns a{
+        padding: 5px;
+        margin: 0;
+    }
+   
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .nav-item {
+        margin-right: 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .text{
+        width: 45%;
+    }
+    .text p{
+        font-size: 16px;
+    }
+    .verified img{
+        margin-bottom: 80px;
+    }
+    .partner-section h1{
+        font-size: 35px;
+    }
+    .holder{
+        position: relative;
+        top: -35px;
+    }
+    .prevBtn{
+        position: absolute;
+        left: -10px;
+        top: 300px;
+    }
+    .nextBtn{
+        position: absolute;
+        right: -10px;
+        top: 300px;
+    }
+    .FAQ{
+        position: relative;
+        top: -70px;
+    }
+    .social{
+        position: relative;
+       bottom: 0px;
+       margin-top: -380px;
+    }
+    .social_impact_text .btns a{
+        padding: 5px;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .holder{
+        position: relative;
+        top: 50px;
+    }
+    .FAQ{
+        position: relative;
+        top: 0px;
+    }
+    .social{
+        position: relative;
+       bottom: 0px;
+       margin-top: -300px;
+    }
+}
+
+/* Additional styles for larger screens can be added here */
